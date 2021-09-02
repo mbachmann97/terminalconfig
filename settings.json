@@ -10,9 +10,11 @@
     },
 
     "workbench.colorCustomizations": {
-        "editorCursor.foreground": "#ff425b",
-        "terminalCursor.foreground": "#ff425b",
-        "editor.selectionBackground": "#4400ff94"
+        "editorCursor.foreground": "#ff0077",
+        "terminalCursor.foreground": "#ff0077",
+        "editor.selectionBackground": "#4400ff81",
+        "titleBar.activeForeground": "#fffb96",
+        "titleBar.activeBackground": "#003548"
     },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -28,5 +30,6 @@
     "workbench.editor.untitled.hint": "hidden",
     "editor.fontFamily": "Jetbrains Mono, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.lineHeight": 16
+    "editor.lineHeight": 16,
+    "window.title": "${rootName} ➔ ${activeEditorShort}"
 }
