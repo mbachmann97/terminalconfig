@@ -1,1 +1,32 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": -1,
+    "editor.cursorStyle": "block",
+    "launch": {
 
+        "configurations": [],
+        "compounds": []
+    },
+
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ff425b",
+        "terminalCursor.foreground": "#ff425b",
+        "editor.selectionBackground": "#4400ff94"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.home": "C:\\Users\\ma_ba\\AppData\\Local\\Programs\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot",
+    "java.help.firstView": "gettingStarted",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.fontFamily": "Jetbrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 16
+}
