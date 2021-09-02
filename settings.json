@@ -2,7 +2,7 @@
     "C_Cpp.updateChannel": "Insiders",
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": -1,
-    "editor.cursorStyle": "block",
+    "editor.cursorStyle": "block-outline",
     "launch": {
 
         "configurations": [],
