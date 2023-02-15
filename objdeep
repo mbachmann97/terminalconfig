@@ -1,0 +1,46 @@
+const arr = [{name: 'Model', values: [{name: "testblah123"}]}]
+let globalobj = {
+	name: "not set"
+}
+
+const testf = (fnc, obj, ...keys) => {
+	let data;
+
+  try {
+  	data = fnc();
+    if (keys.length == 1) {
+    	obj = {
+        ...obj,
+        [keys[0]]: data
+      }
+      globalobj = obj
+    } else if (keys.length == 2) {
+      obj = {
+        ...obj,
+        [keys[0]]: {
+        	[keys[1]]: data
+        }
+      }
+      globalobj = obj
+    } else if (keys.length == 3) {
+    	obj = {
+        ...obj,
+        [keys[0]]: {
+        	[keys[1]]: {
+          	[keys[2]]: data
+          }
+        }
+      }
+      globalobj = obj
+    } else {
+    	return data
+    }
+  } catch(err) {
+  	return false;
+  }
+  return;
+}
+
+console.log("msg", globalobj)
+testf(() => arr.filter(a => a.name === 'Model')[0].values[0].name, globalobj, "custom", "sum")
+console.log("msg", globalobj)
